@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFD7C4; /* Arka plan rengi */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #9DBDFF; /* Konteyner arka plan rengi */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #FFF5E4; /* Başlık rengi */
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #FF9874; /* Arama kutusu kenar rengi */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7695FF; /* Buton arka plan rengi */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: -5px; /* Buton ve arama kutusu arasındaki boşluğu azaltma */
+}
+
+button:hover {
+    background-color: #9DBDFF; /* Buton hover rengi */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+li.highlight {
+    background-color: #FF9874; /* Vurgulanan liste öğesi arka plan rengi */
+    color: #fff;
+}
+
+li:last-child {
+    border-bottom: none;
+}
